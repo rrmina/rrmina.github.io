@@ -18,7 +18,7 @@
       <link>http://localhost:1313/pubs/02_bppv/</link>
       <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/pubs/02_bppv/</guid>
-      <description>&lt;p&gt;This paper proposes WSN, an algorithm that eliminates catastrophic forgetting by jointly-learning the parameter and the structure of the task-dependent model - within a neural network&amp;quot;&lt;/p&gt;
+      <description>&lt;p&gt;This paper proposes an end-to-end Deep Learning computer vision system for diagnosing Benign paroxysmal positional vertigo aka BPPV or &lt;em&gt;vertigo&lt;/em&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;highlights&#34;&gt;Highlights&lt;/h2&gt;
 &lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;</description>
     </item>

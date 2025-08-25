@@ -5,7 +5,7 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-googleAnalytics: "G-R2M9JEHJLQ"
+# googleAnalytics: "G-R2M9JEHJLQ"
 pygmentsUseClasses: true
 
 pagination:
@@ -21,6 +21,7 @@ params:
   description: "Machine Learning Researcher"
   keywords: ["machine learning", "continual learning", "tabular deep learning", "federated learning"]
   author: "Me"
+  math: true
   images: ["images/profpic.png"]
   defaultTheme: "light"
   disableThemeToggle: false

@@ -14,6 +14,13 @@
     <lastBuildDate>Mon, 25 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Understanding the Cauchy-Schwarz Inequality</title>
+      <link>http://localhost:1313/post/cauchy-schwarz/</link>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/cauchy-schwarz/</guid>
+      <description>A quick note on the Cauchy-Schwarz inequality, its proof, and applications in linear algebra and analysis.</description>
+    </item>
+    <item>
       <title>Welcome to My Blog</title>
       <link>http://localhost:1313/post/welcome/</link>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
