@@ -21,6 +21,13 @@
       <description>A concise statement and proof of the Cauchy-Schwarz inequality.</description>
     </item>
     <item>
+      <title>Generative Adversarial Networks (GANs)</title>
+      <link>https://rrmina.github.io/post/generative-adversarial-nets/</link>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://rrmina.github.io/post/generative-adversarial-nets/</guid>
+      <description>An introduction to GANs, their architecture, and applications.</description>
+    </item>
+    <item>
       <title>Welcome to My Blog</title>
       <link>https://rrmina.github.io/post/welcome/</link>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
