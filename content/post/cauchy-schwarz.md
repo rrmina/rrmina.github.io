@@ -5,6 +5,14 @@ summary: "A concise statement and proof of the Cauchy-Schwarz inequality."
 hideSummary: false
 ---
 
+## Example Table
+
+| Column 1 | Column 2 | 
+|----------|----------|
+| Row 1    | Data     |
+| Row 2    | Data     |
+
+
 ## Cauchy-Schwarz Inequality
 
 For any vectors $\mathbf{u}, \mathbf{v}$ in an inner product space,

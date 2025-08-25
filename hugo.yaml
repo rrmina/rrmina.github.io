@@ -122,3 +122,12 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: "monokai"
+  goldmark:
+    extensions:
+      passthrough:
+        enable: true
+        delimiters:
+          block:
+          - - $$
+            - $$
+          inline: []
