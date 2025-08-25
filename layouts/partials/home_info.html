@@ -38,13 +38,14 @@
                     height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
                 {{- end }}
                 {{- end }}
+                    {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
             </div>
         </div>
         </div>
         </div>
     </div>
-    <footer class="entry-footer">
+    <!-- <footer class="entry-footer">
         {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
-    </footer>
+    </footer> -->
 </article>
 {{- end -}}

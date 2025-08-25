@@ -8,10 +8,36 @@
 {{- partial "home_info.html" . }}
 {{- end }}
 
+{{- $posts := where site.RegularPages "Type" "post" }}
+<div class="post-content">
+  <h3>Recent Notes</h3>
+</div>
+{{- range first 5 $posts }}
+  <article class="post-entry">
+    <header class="entry-header">
+      <h4 class="entry-hint-parent">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </h4>
+    </header>
+    {{- if and .Summary (ne (.Param "hideSummary") true) }}
+    <div class="entry-content">
+      <p>
+        {{ .Summary | plainify | htmlUnescape }}
+        {{ if .Truncated }}...{{ end }}
+      </p>
+    </div>
+    {{- end }}
+    <footer class="entry-footer">
+      <span>{{ .Date.Format "Jan 2, 2006" }}</span>
+    </footer>
+  </article>
+{{- end }}
+
 {{- $pubs := where site.RegularPages "Type" "pubs" }}
 <div class="post-content">
 {{- if site.Params.ShowOnlySelectedPubs }}
 {{- $pubs = where $pubs "Params.selected" true }}
+{{- $pubs = sort $pubs "Params.rank" }}
 <h3>Selected Publications</h3>
 {{- else }}
 <h3>Publications</h3>
@@ -23,15 +49,15 @@
     {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
     <div class="pub-meta">
       <header class="entry-header">
-        <h4 class="entry-hint-parent">
-          {{ .Title }}
-        </h4>
+      <h4 class="entry-hint-parent">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </h4>
       </header>
-      {{- if and .Summary (ne (.Param "hideSummary") true) }}
+      <!-- {{- if and .Summary (ne (.Param "hideSummary") true) }}
       <div class="entry-content">
         <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
       </div>
-      {{- end }}
+      {{- end }} -->
       <div class="entry-content">
       {{- partial "pub_entry_authors.html" . }}
       </div>

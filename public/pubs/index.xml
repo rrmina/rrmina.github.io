@@ -11,13 +11,25 @@
     </image>
     <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
+    <lastBuildDate>Fri, 25 Aug 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/pubs/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>http://localhost:1313/pubs/example-publication/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/pubs/example-publication/</guid>
-      <description></description>
+      <title>LAD: A Hybrid Deep Learning System for Benign Paroxysmal Positional Vertigo Disorders Diagnostic</title>
+      <link>http://localhost:1313/pubs/02_bppv/</link>
+      <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pubs/02_bppv/</guid>
+      <description>&lt;p&gt;This paper proposes WSN, an algorithm that eliminates catastrophic forgetting by jointly-learning the parameter and the structure of the task-dependent model - within a neural network&amp;quot;&lt;/p&gt;
+&lt;h2 id=&#34;highlights&#34;&gt;Highlights&lt;/h2&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>Forget-free Continual Learning with Winning Subnetworks</title>
+      <link>http://localhost:1313/pubs/01_wsn/</link>
+      <pubDate>Thu, 25 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pubs/01_wsn/</guid>
+      <description>&lt;p&gt;This paper proposes WSN, an algorithm that eliminates catastrophic forgetting by jointly-learning the parameter and the structure of the task-dependent model - within a neural network&amp;quot;&lt;/p&gt;
+&lt;h2 id=&#34;highlights&#34;&gt;Highlights&lt;/h2&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;</description>
     </item>
   </channel>
 </rss>

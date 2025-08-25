@@ -1,9 +1,9 @@
 {{- $authors := slice }}
 {{- range $author := .Params.authors }}
   {{- if $author.home }}
-    {{- $author = (printf `<a href="%s" target="_blank" rel="noopener noreferrer">%s</a>` $author.home $author.name) }}
+    {{- $author = (printf `<a href="%s" target="_blank" rel="noopener noreferrer">%s</a>` $author.home ($author.name | markdownify)) }}
   {{- else }}
-    {{- $author = $author.name }}
+    {{- $author = $author.name | markdownify }}
   {{- end }}
   {{- $authors = $authors | append $author }}
 {{- end }}

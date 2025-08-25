@@ -10,6 +10,12 @@
     text-align: center;
 }
 
+.header {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    z-index: 10;
+    /* background: #f8f7f2; */
+}
+
 .profile .profile_inner {
     display: flex;
     flex-direction: column;
@@ -19,6 +25,10 @@
 
 .profile img {
     border-radius: 50%;
+}
+
+.profile-img .social-icons {
+    margin-top: 24px;
 }
 
 .buttons {

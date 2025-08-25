@@ -74,7 +74,7 @@ params:
 
   socialIcons:
     - name: "email"
-      url: "mailto:rrmina[at]gmail.com"
+      url: "mailto:rustymina[at]gmail.com"
     - name: "github"
       url: "https://github.com/rrmina"
     - name: "googlescholar"
@@ -106,6 +106,9 @@ menu:
     - name: "Publications"
       url: "pubs"
       weight: 10
+    - name: "Notes"
+      url: "post"
+      weight: 20
     # - name: "Projects"
     #   url: "projects"
     #   weight: 20
