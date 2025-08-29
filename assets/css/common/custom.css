@@ -1,6 +1,7 @@
 .row {
     display: flex;
 }
+
 @font-face {
     font-family: 'EB Garamond';
     src: url('/fonts/EBGaramond-Regular.woff2') format('woff2'),
@@ -9,9 +10,81 @@
     font-weight: normal;
     font-style: normal;
 }
-body {
-    font-family: 'EB Garamond', serif;
+
+/* Regular */
+@font-face {
+  font-family: 'Linux Libertine';
+  src: url('/fonts/LinLibertine_R.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
 }
+
+/* Italic */
+@font-face {
+  font-family: 'Linux Libertine';
+  src: url('/fonts/LinLibertine_RI.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Bold */
+@font-face {
+  font-family: 'Linux Libertine';
+  src: url('/fonts/LinLibertine_RB.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Bold Italic */
+@font-face {
+  font-family: 'Linux Libertine';
+  src: url('/fonts/LinLibertine_RBI.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Semibold */
+@font-face {
+  font-family: 'Linux Libertine';
+  src: url('/fonts/LinLibertine_RZ.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Semibold Italic */
+@font-face {
+  font-family: 'Linux Libertine';
+  src: url('/fonts/LinLibertine_RZI.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* Display (for headings) */
+@font-face {
+  font-family: 'Linux Libertine Display';
+  src: url('/fonts/LinLibertine_DR.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, h2, h3 {
+  font-family: 'Linux Libertine Display', 'Linux Libertine', serif;
+  font-weight: bold;    
+}
+
+body {
+    font-family: 'EB Garamond', 'Linux Libertine', serif;
+    background-color: #f5f5f5;
+}
+
+/* body {
+    font-family: 'EB Garamond', serif;
+} */
+
+/* body {
+    font-family: 'Linux Libertine', 'EB Garamond', serif;
+} */
+
 
 .profile-text {
     text-align: justify;
